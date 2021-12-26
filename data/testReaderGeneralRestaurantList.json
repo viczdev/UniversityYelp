@@ -1,0 +1,32 @@
+{"RestaurantList": [
+	{
+        "address": "University Blvd",
+        "comments": [
+            "Tasty",
+            "Just so so.",
+            "Do not go!"
+        ],
+        "foodType": "CHINESE",
+        "name": "Sesame",
+        "rating": [
+            3,
+            3,
+            5,
+            5
+        ]
+    },
+    {
+        "address": "University St",
+        "comments": [
+        	"Do not order chicken.",
+        	"You can order online!"
+        ],
+        "foodType": "JAPANESE",
+        "name": "Nori",
+        "rating": [
+        	3,
+        	2,
+        	4
+        ]
+    }
+]}

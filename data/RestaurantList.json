@@ -1,0 +1,54 @@
+{"RestaurantList": [
+    {
+        "address": "6111 University Blvd #103, Vancouver, BC V6T 0C7",
+        "comments": [
+            "Do not order Ginger Beef!!!",
+            "Most of dishes tastes good!"
+        ],
+        "foodType": "CHINESE",
+        "name": "Sesame",
+        "rating": [
+            3,
+            2,
+            5
+        ]
+    },
+    {
+        "address": "6005 University Blvd, Vancouver, BC V6T 0C4",
+        "comments": ["I really want to try their coffee."],
+        "foodType": "COFFEE",
+        "name": "JJ Bean Coffee Roasters",
+        "rating": [2]
+    },
+    {
+        "address": "6045 University Blvd, Vancouver, BC V6T 1Z4",
+        "comments": ["Reasonable price!"],
+        "foodType": "PIZZA",
+        "name": "Uncle Fatih\u2019s Pizza - UBC",
+        "rating": [
+            3,
+            4
+        ]
+    },
+    {
+        "address": "5728 University Blvd, Vancouver, BC V6T 1K6",
+        "comments": ["Want to go everyday."],
+        "foodType": "JAPANESE",
+        "name": "Kokoro Tokyo Mazesoba - UBC",
+        "rating": [
+            5,
+            5,
+            5
+        ]
+    },
+    {
+        "address": "6035 University Blvd, Vancouver, BC V6T 0C5",
+        "comments": ["Do not go if you do not like sour."],
+        "foodType": "MIDDLEEASTERNFOOD",
+        "name": "Jamjar Canteen",
+        "rating": [
+            4,
+            3
+        ]
+    }
+]}

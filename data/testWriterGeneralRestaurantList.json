@@ -1,0 +1,16 @@
+{"RestaurantList": [
+    {
+        "address": "University Blvd",
+        "comments": ["Soso"],
+        "foodType": "CHINESE",
+        "name": "Sesame",
+        "rating": [3]
+    },
+    {
+        "address": "University St",
+        "comments": ["good!"],
+        "foodType": "JAPANESE",
+        "name": "Nori",
+        "rating": [4]
+    }
+]}
