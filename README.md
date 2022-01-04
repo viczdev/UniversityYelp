@@ -36,7 +36,7 @@ Uncle Fatih’s Pizza - UBC Restaurant Removed
 **Phase 4: Task 3**
 
 Demo:
-![main](1.png)
-![view](2.png)
-![select](3.png)
-![add](4.png)
+![main](src/1.png)
+![view](src/2.png)
+![select](src/3.png)
+![add](src/4.png)
