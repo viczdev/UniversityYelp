@@ -30,6 +30,8 @@ public class Layout extends JFrame {
     private AddResPanel addResPanel;
     private DetailPanel detailResPanel;
     private RemovePanel removePanel;
+    private RatingPanel ratingPanel;
+    private CommentPanel commentPanel;
 
     /*
      * MODIFIES: this
@@ -65,11 +67,15 @@ public class Layout extends JFrame {
         addResPanel = new AddResPanel(this);
         detailResPanel = new DetailPanel(this);
         removePanel = new RemovePanel(this);
+        ratingPanel = new RatingPanel(this);
+        commentPanel = new CommentPanel(this);
         mainLayoutPanel.add(menuPanel, "menu");
         mainLayoutPanel.add(viewPanel, "view");
         mainLayoutPanel.add(addResPanel, "add");
         mainLayoutPanel.add(removePanel, "remove");
         mainLayoutPanel.add(detailResPanel, "detail");
+        mainLayoutPanel.add(ratingPanel, "rating");
+        mainLayoutPanel.add(commentPanel, "comment");
         cardLayout.show(mainLayoutPanel, "menu");
     }
 

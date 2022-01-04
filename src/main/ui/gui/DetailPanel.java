@@ -1,7 +1,5 @@
 package ui.gui;
 
-import model.RestaurantList;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
@@ -16,8 +14,8 @@ public class DetailPanel extends PanelTemplate {
      * MODIFIES: this
      * EFFECTS: initialize detailPanel
      */
-    public DetailPanel(Layout layoutClass) {
-        super(layoutClass);
+    public DetailPanel(Layout mainLayoutClass) {
+        super(mainLayoutClass);
         submitButton = new JButton("Submit");
         selDetailLabel = new JLabel("Select the restaurant: ");
         this.add(submitButton);

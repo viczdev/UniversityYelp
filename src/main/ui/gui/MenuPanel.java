@@ -68,6 +68,8 @@ public class MenuPanel extends JPanel implements ActionListener {
         addResButton.addActionListener(this);
         detailButton.addActionListener(this);
         removeResButton.addActionListener(this);
+        ratingButton.addActionListener(this);
+        commentButton.addActionListener(this);
         quitButton.addActionListener(this);
     }
 
@@ -96,7 +98,12 @@ public class MenuPanel extends JPanel implements ActionListener {
             mainLayout.show(mainPanels, "view");
         } else if (e.getSource().equals(addResButton)) {
             mainLayout.show(mainPanels, "add");
-        } else if (e.getSource().equals(detailButton)) {
+        } else if (e.getSource().equals(ratingButton)) {
+            mainLayout.show(mainPanels, "rating");
+        } else if (e.getSource().equals(commentButton)) {
+            mainLayout.show(mainPanels, "comment");
+        }
+        else if (e.getSource().equals(detailButton)) {
             if (layoutClass.getRestaurantListSize() < 1) {
                 mainLayout.show(mainPanels, "view");
             } else {

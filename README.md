@@ -35,9 +35,8 @@ Uncle Fatih’s Pizza - UBC Restaurant Removed
 
 **Phase 4: Task 3**
 
-UML:
-![UML](UML_Design_Diagram.jpg)
-
-Future Improvement:
-1. Make rating and comment buttons work.
-2. Add an appropriate layout to the menu panel.
+Demo:
+![main](1.png)
+![view](2.png)
+![select](3.png)
+![add](4.png)
